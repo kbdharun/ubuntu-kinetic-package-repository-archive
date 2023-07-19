@@ -1,0 +1,16 @@
+Package: acpi-support
+Description-md5: 3da3f1fdfeedd4b9182ff4fd508042a7
+Description-sq: Skriptet per trajtimin e shumë mesazheve ACPI
+ This package contains scripts to react to various ACPI events. It only
+ includes scripts for events that can be supported with some level of
+ safety cross platform.
+ .
+ It is able to:
+  * Detect loss and gain of AC power, lid closure, and the press of a
+    number of specific buttons (on Asus, IBM, Lenovo, Panasonic, Sony
+    and Toshiba laptops).
+  * Suspend, hibernate and resume the computer, with workarounds for
+    hardware that needs it.
+  * On some laptops, set screen brightness.
+
+
